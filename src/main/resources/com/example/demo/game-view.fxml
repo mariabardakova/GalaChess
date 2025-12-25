@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.GridPane?>
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ui.GameController">
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+
+    <Label text="Шахматы Гала — Белые ходят первыми" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+
+    <GridPane fx:id="boardGrid" hgap="0" vgap="0" alignment="CENTER">
+    </GridPane>
+</VBox>
